@@ -67,7 +67,7 @@ def show_result_dialog(ans1, ans2, ans3, ans4):
       
     # [พื้นที่สำหรับนักเรียน] : เพิ่มตรวจข้อ 3, 4 ตรงนี้
 
-    st.info(f" ได้คะแนนรวม: (score) คะแนน")
+    st.info(f" ได้คะแนนรวม: {score} คะแนน")
 
     if score == 4:
         st.success(" You win!")
